@@ -14,6 +14,15 @@ struct AuthVIew: View {
 	var body: some View {
 		VStack {
 			NavigationLink {
+				
+				/*struct AuthVIew: View {
+				@Binding var showsigninview: Bool
+	   var body: some View {
+		   VStack {
+			   NavigationLink {
+				   SignInEmailView(showsigninview: $showsigninview)
+				 */
+				
 				SignInEmailView()
 			}
 		label: {

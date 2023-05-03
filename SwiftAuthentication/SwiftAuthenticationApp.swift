@@ -24,11 +24,7 @@ struct SwiftAuthenticationApp: App {
 
 		var body: some Scene {
 			WindowGroup {
-				NavigationStack{
-					AuthVIew()
-					
-				}
-				ContentView()
+				Rootview()
 			}
 		}
 	

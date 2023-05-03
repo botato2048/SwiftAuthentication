@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4246732A02AD09004EEC65 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4246722A02AD09004EEC65 /* SignInEmailView.swift */; };
+		DA7FA7E82A02AB9C006A88EC /* Rootview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7FA7E72A02AB9C006A88EC /* Rootview.swift */; };
 		DAD4A7D629FFEC4D001C65E5 /* AuthVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4A7D529FFEC4D001C65E5 /* AuthVIew.swift */; };
-		DAD4A7D829FFEF45001C65E5 /* SigninEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4A7D729FFEF45001C65E5 /* SigninEmail.swift */; };
 		DAD4A7DA29FFF241001C65E5 /* AuthentificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4A7D929FFF241001C65E5 /* AuthentificationManager.swift */; };
 		DAF42B8A29FBFA9800B3821A /* SwiftAuthenticationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF42B8929FBFA9800B3821A /* SwiftAuthenticationApp.swift */; };
 		DAF42B8C29FBFA9800B3821A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF42B8B29FBFA9800B3821A /* ContentView.swift */; };
@@ -40,8 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA4246722A02AD09004EEC65 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		DA7FA7E72A02AB9C006A88EC /* Rootview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rootview.swift; sourceTree = "<group>"; };
 		DAD4A7D529FFEC4D001C65E5 /* AuthVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthVIew.swift; path = SwiftAuthentication/AuthVIew.swift; sourceTree = SOURCE_ROOT; };
-		DAD4A7D729FFEF45001C65E5 /* SigninEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninEmail.swift; sourceTree = "<group>"; };
 		DAD4A7D929FFF241001C65E5 /* AuthentificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationManager.swift; sourceTree = "<group>"; };
 		DAF42B8629FBFA9800B3821A /* SwiftAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF42B8929FBFA9800B3821A /* SwiftAuthenticationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAuthenticationApp.swift; sourceTree = "<group>"; };
@@ -87,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				DAD4A7D529FFEC4D001C65E5 /* AuthVIew.swift */,
-				DAD4A7D729FFEF45001C65E5 /* SigninEmail.swift */,
 				DAD4A7D929FFF241001C65E5 /* AuthentificationManager.swift */,
+				DA4246722A02AD09004EEC65 /* SignInEmailView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -122,6 +124,7 @@
 				DAF42B8B29FBFA9800B3821A /* ContentView.swift */,
 				DAF42B8D29FBFA9900B3821A /* Assets.xcassets */,
 				DAF42B8F29FBFA9900B3821A /* Preview Content */,
+				DA7FA7E72A02AB9C006A88EC /* Rootview.swift */,
 			);
 			path = SwiftAuthentication;
 			sourceTree = "<group>";
@@ -289,11 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD4A7D829FFEF45001C65E5 /* SigninEmail.swift in Sources */,
 				DAF42B8C29FBFA9800B3821A /* ContentView.swift in Sources */,
 				DAF42B8A29FBFA9800B3821A /* SwiftAuthenticationApp.swift in Sources */,
 				DAD4A7D629FFEC4D001C65E5 /* AuthVIew.swift in Sources */,
+				DA7FA7E82A02AB9C006A88EC /* Rootview.swift in Sources */,
 				DAD4A7DA29FFF241001C65E5 /* AuthentificationManager.swift in Sources */,
+				DA4246732A02AD09004EEC65 /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
